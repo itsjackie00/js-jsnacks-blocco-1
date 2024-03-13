@@ -20,9 +20,12 @@ Sì, lo sappiamo che esiste la funzione includes() ma noi non
 la vogliamo utilizzare per cercare nel frigorifero.
 */
 
-const fruit = [
+const fruits = [
     'banana', 'mela', 'pera', 'ciliegia', 'arancia', 
     'mandarino', 'cocomero',
     'limone', 'fragola' 
 ];
-console.log(fruit);
+console.log(fruits);
+
+fruits.push('pesca');
+console.log(fruits);
