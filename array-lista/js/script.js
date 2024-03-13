@@ -25,7 +25,12 @@ const fruits = [
     'mandarino', 'cocomero',
     'limone', 'fragola' 
 ];
-console.log(fruits);
+//console.log(fruits);
 
 fruits.push('pesca');
-console.log(fruits);
+//console.log(fruits);
+
+for(let i = 0; i < fruits.length; i++){
+    console.log(fruits[i]);
+    
+}
