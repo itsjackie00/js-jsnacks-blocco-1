@@ -20,7 +20,7 @@ Sì, lo sappiamo che esiste la funzione includes() ma noi non
 la vogliamo utilizzare per cercare nel frigorifero.
 */
 
-let fruit = [
+const fruit = [
     'banana', 'mela', 'pera', 'ciliegia', 'arancia', 
     'mandarino', 'cocomero',
     'limone', 'fragola' 
