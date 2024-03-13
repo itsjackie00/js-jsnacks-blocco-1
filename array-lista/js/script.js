@@ -21,16 +21,26 @@ la vogliamo utilizzare per cercare nel frigorifero.
 */
 
 const fruits = [
-    'banana', 'mela', 'pera', 'ciliegia', 'arancia', 
+    'banana', 'mela', 'pera', 'ciliegia', 'arancia',
     'mandarino', 'cocomero',
-    'limone', 'fragola' 
+    'limone', 'fragola'
 ];
 //console.log(fruits);
 
 fruits.push('pesca');
 //console.log(fruits);
 
-for(let i = 0; i < fruits.length; i++){
+let check = false;
+
+for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
-    
+    if (fruits[i] === 'cocomero') {
+        check = true;
+        console.log("Trovato! Devo solo preparare il cocktail.");
+    }
 }
+if (check === false) {
+    console.log("Oh no, devo uscire a comprare il cocomero!");
+}
+
+
